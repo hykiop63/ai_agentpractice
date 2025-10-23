@@ -42,8 +42,8 @@ try:
     print(f"풍속: {windspeed} km/h")
     
     # (선택 사항) 전체 데이터 구조를 확인하려면 주석 해제:
-    # print("\n--- 전체 응답 데이터 구조 ---")
-    # pprint(data) 
+    print("\n--- 전체 응답 데이터 구조 ---")
+    pprint(data) 
 
 except requests.exceptions.HTTPError as errh:
     # 400대 또는 500대 상태 코드가 발생했을 때 잡는 예외
