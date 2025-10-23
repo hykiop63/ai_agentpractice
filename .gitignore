@@ -10,3 +10,6 @@ __pycache__/
 .env
 secrets.toml
 *.key
+
+# personal docs
+my*
